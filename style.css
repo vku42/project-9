@@ -1,0 +1,441 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: #CAD5E2;
+}
+/* navigation bar  */
+
+nav {
+  display: flex;
+  justify-content: right;
+  padding-top: 25px;
+  padding-right: 40px;
+}
+
+.nav-item {
+  margin-left: 25px;
+}
+
+.nav-item-active {
+  margin-left: 25px;
+  background-color: #fff;
+  color: #000000;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+
+/* header section  */
+
+header {
+  position: relative;
+  background-color: #4719FD;
+  height: 70vh;
+  color: #fff;
+}
+
+.header-image {
+  position: absolute;
+  top: 80px;
+  right: 0%;
+  width: 40vw;
+  filter: drop-shadow(0px 10px 5px  rgba(1, 1, 1, 0.574));
+}
+
+.logo {
+  margin-left: 5%;
+  margin-top: 40px;
+  width: 10%;
+}
+
+.header-text {
+  margin-top: 3%;
+  margin-left: 5%;
+}
+
+.header-text h2 {
+  /* font-family: "Righteous"; */
+  font-size: 3rem;
+}
+
+
+
+/* <!-- Companies --> */
+
+.companies {
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.company-items {
+  font-family: "Righteous";
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: #000000;
+}
+
+
+/* <!-- API Section --> */
+
+.api {
+  height: 60vh;
+  margin-left: 70px;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+
+.cards {
+  padding: 30px 5px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-active {
+  background-color: #fff;
+  padding: 50px 5px;
+  border-radius: 1rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.459);
+}
+
+.card {
+  padding: 50px 5px;
+  
+}
+
+
+
+/* <!-- Blog section --> */
+
+.blog-heading {
+  margin-left: 70px;
+}
+
+.blog-cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 70px;
+}
+
+.blog-card {
+  position: relative;
+  display: flex;
+  background-color: #fff;
+  width: 42vw;
+  border-radius: 10px;
+  border-top-left-radius: 5rem;
+}
+
+.blog-content {
+  padding: 15px 25px;
+  padding-top: 45px;
+}
+
+.blog-card-bottom-image {
+  filter: drop-shadow(0px 0px 5px  rgb(255, 255, 255));
+}
+
+.bb {
+  position: absolute;
+  display: flex;
+  top: 260px;
+  left: 300px;
+}
+
+/* <!-- FAQ SECTION --> */
+
+.faq-section {
+  background-color: #E9EDFF;
+  display: flex;
+  justify-content: space-between;
+  height: 50vh;
+}
+
+.faq-content {
+  flex: 1;
+  padding: 20px 25px;
+  padding-top: 70px;
+  padding-left: 70px;
+}
+
+.faq-content h2{
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 45px;
+  margin-bottom: 25px;
+}
+
+.faq-content h4{
+  font-size: 0.8rem;
+}
+
+.faq-content button{
+  margin-top: 30px;
+  border: none;
+  background-color: #5A31FC;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 0.5rem;
+
+}
+
+.anyquest {
+  margin-top: 30px;
+}
+
+.faq-image img {
+  height: 50vh;
+}
+
+
+/* <!-- Download --> */
+
+.download-section {
+  padding: 0 60px;
+  display: flex;
+  background-color: #fff;
+  height: 40vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.download-content h1 {
+  font-weight: 900;
+}
+
+.download-content h1 span {
+  font-weight: 100;
+}
+
+.download-email {
+  background-color: #CAD5E2;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 25px;
+}
+
+input {
+  border: none;
+  background-color: #CAD5E2;
+  width: 25vw;
+  outline-width: 0;
+}
+
+form button {
+  background-color: #5A31FC;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 2rem;
+  color: #fff;
+  font-size: 1rem;
+  position: relative;
+  left: 5px;
+}
+
+
+/* <!-- footer --> */
+
+.footer-section {
+  background-color: #5A31FC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30vh;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: #fff;
+}
+
+.list, .logos-list {
+  display: flex;
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.list-items{
+  padding-left: 20px;
+  padding-right: 20px;
+  border-right: 1px solid white;
+  font-size: 0.8rem;
+}
+
+.footer-right {
+  text-align: center;
+}
+
+.footer-logos {
+  margin-right: 10px;
+}
+
+
+/* lets make it responsive */
+
+
+@media screen and (max-width:1203px){
+  .faq-section {
+    height: 40vh;
+  }
+
+  .faq-content {
+    flex: 1;
+    padding: 5px 10px;
+    padding-top: 40px;
+    padding-left: 70px;
+  }
+
+  .faq-content h2{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 35px;
+    margin-bottom: 10px;
+  }
+  
+  .faq-content h4{
+    font-size: 0.7rem;
+  }
+  
+  .anyquest {
+    margin-top: 15px;
+  }
+
+  .faq-image img {
+    height: 40vh;
+  }
+
+  .header-text h2 {
+    font-size: 2.4rem;
+  }
+
+  .blog-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 70px;
+  }
+
+  .blog-card {
+    width: 50vw;
+    margin-bottom: 30px;
+  }
+
+  header {
+    height: fit-content;
+
+  }
+
+  .header-text p {
+    padding-bottom: 25px;
+  }
+  
+
+}
+
+
+
+@media screen and (max-width:963px){
+  .header-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .faq-image img {
+    height: 40vh;
+    width: 50vw;
+  }
+
+  .blog-cards {
+    margin: 30px 30px;
+  }
+  .blog-card {
+    width: fit-content;
+  }
+
+  
+
+}
+
+@media screen and (max-width:768px){
+  .header-image {
+    position: static;
+    float: right;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .companies {
+    display: flex;
+    width: 90%;
+  }
+
+  .company-items {
+    font-weight: 500;
+    font-size: 1rem;
+  }
+
+  
+.api {
+  height: fit-content;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .faq-image img {
+    display: none;
+  }
+
+  .download-section {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+
+  }
+
+  .download-content h1 {
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+
+  .footer-section {
+    display: none;
+  }
+
+  .blog-content {
+    padding: 15px 25px;
+    padding-top: 15px;
+    font-size: 0.8rem;
+  }
+
+  .bb {
+    position: absolute;
+    display: flex;
+    top: 260px;
+    left: 10px;
+  }
+
+ 
+  
+
+
+
+ }
